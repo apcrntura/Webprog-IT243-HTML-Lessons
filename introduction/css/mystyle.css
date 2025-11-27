@@ -1,7 +1,11 @@
-body {
-  background-color: rgb(22, 195, 253);
+body { 
+  background-image: url("https://pixabay.com/get/g16434e7c326e033bbf5edb7543b3f422a9395dedb1a64b5c_1920.jpg");
+  background-size: cover;        
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 h1 {
   color: navy;
   margin-left: 20px;
 }
+
