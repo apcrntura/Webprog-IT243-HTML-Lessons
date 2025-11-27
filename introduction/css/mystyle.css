@@ -3,10 +3,20 @@ body {
   background-size: cover;        
   background-repeat: no-repeat;
   background-attachment: fixed;
+  text-align: center;
 }
 h1 {
-  color: navy;
-  margin-left: 20px;
+  color: white;
 }
+
+p {
+  color: white;
+}
+
+span {
+  color: white;
+}
+
+
 
 
