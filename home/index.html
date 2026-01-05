@@ -1,14 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Profile</title>
+  <link rel="stylesheet" href="home/style.css">
 </head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My First paragraph.</p>
+<video class="background-video" autoplay muted loop playsinline>
+  <source src="home/2611250-uhd_3840_2160_30fps.mp4" type="video/mp4">
+</video>
 
+<header>
+  <nav>
+    <span class="logo">RAE ALLEN TURA</span>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">IT Experience</a></li>
+      <li><a href="#goals">Goals</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+    </ul>
+    <button class="theme-btn" onclick="toggleTheme()">☾</button>
+  </nav>
+</header>
+
+<main>
+  <section id="about" class="card">
+    <h2>ABOUT ME</h2>
+    <p>I am an IT-oriented individual who values precision and clean design.</p>
+  </section>
+
+  <section id="education" class="card">
+    <h2>EDUCATION</h2>
+    <p>BS INFORMATION TECHNOLOGY in ASIA PACIFIC COLLEGE</p>
+  </section>
+
+  <section id="experience" class="card">
+    <h2>IT EXPERIENCE</h2>
+    <p>Web Development, Database, PC Troubleshooting</p>
+  </section>
+
+  <section id="goals" class="card">
+    <h2>GOALS</h2>
+    <p>To grow as a disciplined IT professional and create meaningful technology solutions.</p>
+  </section>
+
+  <section id="gallery" class="card">
+    <h2>GALLERY</h2>
+    <div class="gallery">
+      <div class="img-box"></div>
+      <div class="img-box"></div>
+      <div class="img-box"></div>
+      <div class="img-box"></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Resources used: Original design, royalty-free galaxy video.</p>
+</footer>
+
+<script>
+function toggleTheme() {
+  document.body.classList.toggle("light");
+}
+</script>
 </body>
 </html>
-
-
